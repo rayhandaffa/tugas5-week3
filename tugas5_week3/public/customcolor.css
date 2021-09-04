@@ -1,0 +1,26 @@
+.buttonShow {background-color: rgb(0, 60, 255)}
+.buttonShow:focus {background-color: rgb(100, 130, 255)}
+.buttonShow:hover {background-color: rgb(100, 130, 255)}
+.buttonShow:active {background-color: rgb(100, 130, 255)}
+
+.buttonEdit {background-color: rgb(207, 207, 207); border-color: rgb(111, 111, 111);}
+.buttonEdit:focus {background-color: rgb(131, 131, 131)}
+.buttonEdit:hover {background-color: rgb(131, 131, 131)}
+.buttonEdit:active {background-color: rgb(131, 131, 131)}
+
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f7f7f7;
+    }
